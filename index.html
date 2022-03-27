@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+<script src="script.js"></script>
+</head>
+<body>
+
+<main>
+    <div>
+      <div class="star" id="star"><img src="images/icon-star.svg" alt=""></div>
+    </div>
+    <div class="Text1" id="Text1">How did we do?</div>
+    <div class="Text2" id="Text2">Please let us know how we did with your support request. All feedback is appreciated to help us improve out offering!</div>
+    <div class="Rate" id="Rate">
+      <div id="1" onclick="Change_Rate(1)">1</div>
+      <div id="2" onclick="Change_Rate(2)">2</div>
+      <div id="3" onclick="Change_Rate(3)">3</div>
+      <div id="4" onclick="Change_Rate(4)">4</div>
+      <div id="5" onclick="Change_Rate(5)">5</div>
+    </div>
+    <div class="Submission" id="Submission" onclick="Sub()">SUBMIT</div>
+    <footer id="footer"></footer>
+</main>
+
+
+</body>
+</html>

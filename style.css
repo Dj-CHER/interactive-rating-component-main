@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;600&family=Outfit:wght@100;200&display=swap');
+*{
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    color: orange;
+    background-color: hsl(216, 12%, 8%);
+}
+main{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    height: 350px;
+    width: 350px;
+    background-color: hsla(213, 20%, 18%, 0.603);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main .star img{
+    width: 17px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: hsla(216, 12%, 54%, 0.144);
+}
+main .Text1{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+main .Text2{
+    color: hsl(217, 12%, 63%);
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+main .Rate{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.Rate div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:35px;
+    height: 35px;
+    padding: 7px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    background-color: hsla(217, 12%, 63%, 0.144);
+    font-weight: 900;
+    transition:  color 0.2s,background 0.2s;
+}
+
+main .Submission{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 330px;
+    color: white;
+    border-radius: 50px;
+    background-color: hsl(25, 97%, 53%);
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-weight: 600;
+    transition:  color 0.1s,background 0.1s;
+}
+
+.Rate div:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+    color: white;
+    cursor: pointer;
+}
+
+main .Submission:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+#thankyou{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#thankyou img
+{  
+    background: none;
+    border-radius: 0px;
+    width: 170px;
+}
+
+#Text3{
+    align-self: center;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+    color: hsl(25, 97%, 53%);
+    background-color: rgba(255, 255, 255, 0.116);
+    width: 200px;
+    border-radius: 50px;
+    font-weight: 400;
+}
+
+#Text4{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+#Text5{
+    font-size: 13.2px;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    padding: 10px;
+    font-weight: 600;
+    width: 295px;
+}
+
+footer{
+    font-size: 12px;
+    position: absolute;
+    bottom: 2%;
+    align-self: center;
+    letter-spacing: 2px;
+}
